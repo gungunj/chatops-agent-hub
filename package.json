@@ -1,0 +1,21 @@
+{
+  "name": "chatops-agent-hub",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/main.ts",
+    "start": "tsx src/main.ts",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.2"
+  },
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "^1.55.0",
+    "dotenv": "^17.2.3",
+    "zod": "^4.3.6"
+  }
+}
